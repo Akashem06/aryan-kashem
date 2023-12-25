@@ -9,7 +9,7 @@ const Resume = () => {
             <Header />
 
             <iframe 
-            src="https://drive.google.com/file/d/1ZlS5Er-EcmR2UNQ9s98L5nkafaD7I1-F/preview"
+            src="https://drive.google.com/file/d/1B4Jn7O3EEICZvCo7bV8TAao8pVA2iMpH/preview"
             className="z-50 h-[85%] w-[90%] md:w-[60%]" 
             allow="autoplay">
             </iframe>
