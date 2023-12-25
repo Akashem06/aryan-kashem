@@ -10,7 +10,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 
 function Model(props) {
-    const { scene } = useGLTF("/Rocket.glb");
+    const { scene } = useGLTF("Rocket.glb");
 
     useFrame(() => {
         scene.rotation.y += 0.005;

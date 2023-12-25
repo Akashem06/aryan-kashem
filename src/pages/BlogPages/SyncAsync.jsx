@@ -25,7 +25,7 @@ const SyncAsync = () => {
                     <p className="text-gray-200 text-[1rem] font-Rubik">&#8226; Does not require start/stop bits</p>
                     <p className="text-gray-200 text-[1rem] font-Rubik">&#8226; Generally faster than asynchronous protocols</p>
                 </div>
-                <img className="col-span-6 sm:col-span-3 rounded-3xl" src="/SyncAsync.png" alt="Data clock diagram"/>
+                <img className="col-span-6 sm:col-span-3 rounded-3xl" src="SyncAsync.png" alt="Data clock diagram"/>
         
                 <p className="col-span-6 text-white text-[1.5rem] font-Rubik mt-[1rem] font-bold"> Asynchronous Communication: </p>
                 <div className="col-span-6">
@@ -42,7 +42,7 @@ const SyncAsync = () => {
                     <p className="text-gray-200 text-[1rem] font-Rubik">&#8226; Start/stop bits are required in each message</p>
                     <p className="text-gray-200 text-[1rem] font-Rubik">&#8226; Generally slower than synchronous protocols</p>
                 </div>
-                <img className="col-span-6 rounded-3xl w-full" src="/SyncAsync2.png" alt="Asynchronous timing diagram"/>
+                <img className="col-span-6 rounded-3xl w-full" src="SyncAsync2.png" alt="Asynchronous timing diagram"/>
 
             </div>
         </div>

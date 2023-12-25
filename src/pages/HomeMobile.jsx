@@ -9,7 +9,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { useGLTF, Stage, Sphere, MeshDistortMaterial } from '@react-three/drei'
 
 function Model(props) {
-    const { scene } = useGLTF("/Rocket.glb");
+    const { scene } = useGLTF("Rocket.glb");
 
     useFrame(() => {
         scene.rotation.y += 0.005;

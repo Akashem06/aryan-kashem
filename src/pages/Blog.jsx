@@ -52,7 +52,7 @@ const Blog = () => {
         title="SPI" 
         date="December 20, 2023"
         to="/Blog/SPI" 
-        image="/SPI.png"
+        image="SPI.png"
         summary="SPI is a serial communication protocol facilitating data exchange between microcontrollers and devices like sensors and displays"
         estimatedTime="4 min"
       />
@@ -60,7 +60,7 @@ const Blog = () => {
         title="I2C"
         date="December 17, 2023"
         to="/Blog/I2C"
-        image="/I2C.png"
+        image="I2C.png"
         summary="I2C is a common communication protocol for connecting sensors and devices in embedded systems, using a two-wire interface"
         estimatedTime="5 min"
       />

@@ -46,11 +46,11 @@ const AboutPC = () => {
                 </a>
 
                 <div className="col-span-2">
-                    <img className="mt-[1rem] h-[26rem] w-[20rem] rounded-3xl" src="/RealisticArt.jpeg" alt="Realistic painting of young woman"/>
+                    <img className="mt-[1rem] h-[26rem] w-[20rem] rounded-3xl" src="RealisticArt.jpeg" alt="Realistic painting of young woman"/>
                 </div>
 
                 <div className="col-span-2">
-                    <img className="mt-[1rem] h-[26rem] w-[20rem] rounded-3xl" src="/RealisticArt2.jpeg" alt="Realistic painting of old man"/>
+                    <img className="mt-[1rem] h-[26rem] w-[20rem] rounded-3xl" src="RealisticArt2.jpeg" alt="Realistic painting of old man"/>
                 </div>
 
                 <div className="col-span-2">

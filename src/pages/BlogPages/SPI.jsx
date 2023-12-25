@@ -15,7 +15,7 @@ const SPI = () => {
                     <p className="text-gray-200 text-[1rem] font-Rubik mt-[1rem]">SCLK (Serial Clock) - provides a clock cycle to tell the slave the timing of bits. Clock Polarity (CPOL) and Clock Phase (CPHA) is defined in component datasheets</p>
                     <p className="text-gray-200 text-[1rem] font-Rubik mt-[1rem]">CS (Chip Select) - Pulls the pin low to select a chip, enables RX/TX messages. Typically used when there's multiple SPI devices</p>
                 </div>
-                <img className="col-span-6 md:col-span-3 rounded-3xl mt-[0.5rem]" src="/SPI.png" alt="SPI diagram"/>
+                <img className="col-span-6 md:col-span-3 rounded-3xl mt-[0.5rem]" src="SPI.png" alt="SPI diagram"/>
 
                 <p className="col-span-6 text-white text-[1.5rem] font-Rubik mt-[1rem] font-bold"> SPI Message Example: </p>
                 <div className="col-span-6 md:col-span-2">
@@ -28,7 +28,7 @@ const SPI = () => {
 
                     <p className="text-white text-[1rem] font-Rubik mt-[1rem]">This is a synchronous communication protocol</p>
                 </div>
-                <img className="col-span-6 md:col-span-4 rounded-3xl" src="/SPI2.jpg" alt="Clock polarity/Clock phase Diagram"/>
+                <img className="col-span-6 md:col-span-4 rounded-3xl" src="SPI2.jpg" alt="Clock polarity/Clock phase Diagram"/>
                 
             </div>
           

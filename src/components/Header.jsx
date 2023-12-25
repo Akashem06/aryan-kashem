@@ -9,7 +9,7 @@ const MobileHeader = ({ isOpen, toggleMenu }) => {
     <div id="mobile-menu" className={`fixed top-0 inset-x-0 bg-gray-800 text-white z-[150] w-full transition-transform ease-in-out duration-300 transform ${isOpen ? "translate-y-0" : "-translate-y-full"}`}>
       <div className="flex justify-between items-center p-4">
         <Link to="/" className="flex items-center">
-          <img className="h-8 w-8" src="/logo.png" alt="Logo" />
+          <img className="h-8 w-8" src="logo.png" alt="Logo" />
           <p className="ml-2 text-lg font-bold">ARYAN KASHEM</p>
         </Link>
         <div className="cursor-pointer" onClick={toggleMenu}>
@@ -79,7 +79,7 @@ const Header = () => {
       {isMobile ? (
         <div className="flex justify-between items-center p-4 text-white z-[150] w-full">
           <Link to="/" className="flex items-center">
-            <img className="h-8 w-8" src="/logo.png" alt="Logo" />
+            <img className="h-8 w-8" src="logo.png" alt="Logo" />
             <p className="ml-2 text-lg font-bold">ARYAN KASHEM</p>
           </Link>
           <div className="cursor-pointer" onClick={toggleMobileMenu}>
@@ -110,7 +110,7 @@ const Header = () => {
       ) : (
         <div className="px-[4rem] flex justify-between items-center w-screen z-50">
           <Link to="/" className="relative left-[-3%] flex items-center header-logo">
-            <img className="h-[7rem] w-[7rem]" src="/logo.png" alt="Logo" />
+            <img className="h-[7rem] w-[7rem]" src="logo.png" alt="Logo" />
             <p className="text-white font-Rubik font-bold">ARYAN KASHEM</p>
           </Link>
           <div className="flex gap-10 header-links">

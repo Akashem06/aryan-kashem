@@ -20,7 +20,7 @@ const SensorFusion = () => {
                         title="MATLAB Sensor Fusion"
                         date="MathWorks"
                         to="https://www.mathworks.com/help/fusion/inertial-sensor-fusion.html"
-                        image="/MATLAB.png"
+                        image="MATLAB.png"
                         summary="MATLAB documentation on sensor fusion implementation, using a 9 axis IMU. Extremely helpful 
                         to visualize the mathematical reasoning for sensor fusion"
                         estimatedTime="MATLAB"
@@ -52,7 +52,7 @@ const SensorFusion = () => {
                     </p>
                     <p className="text-gray-200 text-[1rem] font-Rubik mt-[1rem]">Here is a graph visualizing the fluctuations in sensor readings</p>
                 </div>
-                <img className="col-span-6 sm:col-span-3 rounded-3xl relative" src="/IMUCalib2.png" alt="IMU data error"/>
+                <img className="col-span-6 sm:col-span-3 rounded-3xl relative" src="IMUCalib2.png" alt="IMU data error"/>
 
                 <p className="col-span-6 text-white text-[1.5rem] font-Rubik mt-[1rem] font-bold">How to Implement an IMU</p>
                 <p className="col-span-6 text-gray-200 text-[1rem] font-Rubik">To implement sensor fusion we require raw sensor data to be 
@@ -74,7 +74,7 @@ const SensorFusion = () => {
                     <p className="text-gray-200 text-[1rem] font-Rubik">External magnetic fields are categorized into two groups, 
                     Soft-Iron, and Hard-Iron. </p>
                 </div>
-                <img className="col-span-6 sm:col-span-3 rounded-3xl" src="/IMUCalib.png" alt="Magnetometer calibration"/>
+                <img className="col-span-6 sm:col-span-3 rounded-3xl" src="IMUCalib.png" alt="Magnetometer calibration"/>
             </div>
         </div>
     )
