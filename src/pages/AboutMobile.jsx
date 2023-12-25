@@ -50,8 +50,8 @@ const AboutMobile = () => {
         <p className="text-fuchsia-500 mt-4 text-base font-semibold text-center font-Rubik">Here are a couple of my favourite drawings!</p>
 
         <div className="flex flex-col justify-between mt-4">
-            <img className="mb-4 h-full w-full rounded-3xl" src="/RealisticArt.jpeg" alt="Realistic painting of young woman" />
-            <img className="mb-4 h-full w-full rounded-3xl" src="/RealisticArt2.jpeg" alt="Realistic painting of old man" />
+            <img className="mb-4 h-full w-full rounded-3xl" src="RealisticArt.jpeg" alt="Realistic painting of young woman" />
+            <img className="mb-4 h-full w-full rounded-3xl" src="RealisticArt2.jpeg" alt="Realistic painting of old man" />
         </div>
 
   
