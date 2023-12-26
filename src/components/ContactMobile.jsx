@@ -48,33 +48,33 @@ const ContactMobile = () => {
   };
 
   return (
-    <div className="w-full p-4 z-50">
+    <div className="w-full p-4 z-50 relative">
       <p className="text-white text-2xl font-semibold font-Rubik text-center">Contact Me</p>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} className="z-50 relative">
         <input
           type="text"
           name="name"
           placeholder="Name"
-          className="w-full my-2 bg-transparent text-white border-2 border-transparent border-b-white"
+          className="w-full my-2 bg-transparent text-white border-2 border-transparent border-b-white z-50 relative"
         />
 
         <input
           type="email"
           name="email"
           placeholder="What's your email?"
-          className="w-full my-2 bg-transparent text-white border-2 border-transparent border-b-white"
+          className="w-full my-2 bg-transparent text-white border-2 border-transparent border-b-white z-50 relative"
         />
 
         <textarea
           name="message"
           rows="5"
           placeholder="Your message"
-          className="w-full resize-none my-2 text-white bg-slate-800 rounded-lg"
+          className="w-full resize-none my-2 text-white bg-slate-800 rounded-lg z-50 relative"
         ></textarea>
 
         <input
           type="submit"
-          className="bg-green-600 mt-4 w-full rounded-xl py-2 px-4 cursor-pointer hover:bg-green-400 transition duration-300"
+          className="bg-green-600 mt-4 w-full rounded-xl py-2 px-4 cursor-pointer hover:bg-green-400 transition duration-300 z-50 relative"
         />
         
       </form>

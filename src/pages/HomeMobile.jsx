@@ -50,7 +50,7 @@ const HomeMobile = () => {
             </Canvas>
       </div>
 
-      <div className="mt-[-10rem] h-screen w-full z-10">
+      <div className="mt-[-10rem] h-screen w-full z-[5] select-none relative">
             <Canvas dpr={[1, 2]} camera={{ fov: 10, position: [0, 0, 10], near: 0.1, far: 50, orthographic: true }}>
               <Stage intensity={1} environment="park">
                 <Model scale={0.5} />

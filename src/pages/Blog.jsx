@@ -25,7 +25,7 @@ const Blog = () => {
         estimatedTime="7 min"
        />
       <BlogCard 
-        title="Sensor Fusion" 
+        title="AHRS Sensor Fusion" 
         date="Janurary 1, 2024"
         to="/Blog/Sensor-Fusion"
         image="IMUCalib.png"
