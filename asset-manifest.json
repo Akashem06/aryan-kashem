@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/aryan-kashem/static/css/main.810df07a.css",
-    "main.js": "/aryan-kashem/static/js/main.18ef206d.js",
+    "main.js": "/aryan-kashem/static/js/main.f4fbabf9.js",
     "index.html": "/aryan-kashem/index.html",
     "main.810df07a.css.map": "/aryan-kashem/static/css/main.810df07a.css.map",
-    "main.18ef206d.js.map": "/aryan-kashem/static/js/main.18ef206d.js.map"
+    "main.f4fbabf9.js.map": "/aryan-kashem/static/js/main.f4fbabf9.js.map"
   },
   "entrypoints": [
     "static/css/main.810df07a.css",
-    "static/js/main.18ef206d.js"
+    "static/js/main.f4fbabf9.js"
   ]
 }
