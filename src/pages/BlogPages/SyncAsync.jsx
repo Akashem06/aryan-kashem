@@ -4,7 +4,7 @@ const SyncAsync = () => {
     return (
         <div className="flex flex-col items-center mb-[5rem]">
             <Header />
-            <div className="grid grid-cols-6 gap-4 relative w-[70%] top-[5%]">
+            <div className="grid grid-cols-6 gap-4 relative w-[90%] md:w-[70%] top-[5%]">
                 <p className="col-span-6 text-white text-[2.5rem] md:text-[3rem] font-Rubik font-bold">Synchronous vs Asynchronous</p>
                 <p className="col-span-6 relative bottom-[75%] text-white text-[1rem] font-Rubik font-semibold">Written for my understanding | 3 min</p>
                 <p className="col-span-6 text-gray-200 text-[1rem] font-Rubik">Synchronous: Real-time communication with a clock line; Asynchronous: Time-flexible communication using standard baud rates</p>
