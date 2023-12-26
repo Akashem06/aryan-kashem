@@ -35,7 +35,7 @@ const HomeMobile = () => {
         <img className="rounded-full border-2 border-sky-500 mt-[3rem]" src="Aryan2.jpg" alt="Personal photo"/>
       </div>
 
-      <div className="absolute bottom-[-20%] h-screen w-full z-0">
+      <div className="absolute bottom-[-30%] h-screen w-full z-0">
             <Canvas>
               <ambientLight intensity={0.5} color="rgb(140, 110, 255)" />
               <directionalLight position={[0, 4, 2]} intensity={0.75} />
