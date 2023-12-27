@@ -4,13 +4,15 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import { Blog } from './pages/Blog';
 import About from './pages/About';
-import I2C from './pages/BlogPages/I2C'
-import SPI from './pages/BlogPages/SPI'
-import UART from './pages/BlogPages/UART'
-import SyncAsync from './pages/BlogPages/SyncAsync'
-import Canbus from './pages/BlogPages/Canbus'
-import SensorFusion from './pages/BlogPages/SensorFusion'
-import RTOS from './pages/BlogPages/RTOS'
+import I2C from './pages/TechnicalBlog/I2C'
+import SPI from './pages/TechnicalBlog/SPI'
+import UART from './pages/TechnicalBlog/UART'
+import SyncAsync from './pages/TechnicalBlog/SyncAsync'
+import Canbus from './pages/TechnicalBlog/Canbus'
+import SensorFusion from './pages/TechnicalBlog/SensorFusion'
+import RTOS from './pages/TechnicalBlog/RTOS'
+import ECE1A from './pages/SchoolBlog/ECE1A'
+import Highschool from './pages/SchoolBlog/Highschool'
 
 import './PageTransitions.css';
 
@@ -125,6 +127,26 @@ function App() {
               <TransitionGroup>
                 <CSSTransition key="rtos" timeout={1000} classNames="fade">
                   <RTOS />
+                </CSSTransition>
+              </TransitionGroup>
+            }
+          />
+          <Route
+            path="/Blog/ECE1A"
+            element={
+              <TransitionGroup>
+                <CSSTransition key="ece1a" timeout={1000} classNames="fade">
+                  <ECE1A />
+                </CSSTransition>
+              </TransitionGroup>
+            }
+          />
+          <Route
+            path="/Blog/Highschool"
+            element={
+              <TransitionGroup>
+                <CSSTransition key="highschool" timeout={1000} classNames="fade">
+                  <Highschool />
                 </CSSTransition>
               </TransitionGroup>
             }

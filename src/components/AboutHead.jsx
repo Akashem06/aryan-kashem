@@ -1,5 +1,3 @@
-// AboutMeHeader.js
-
 import React from "react";
 
 const AboutMeHeader = () => {
