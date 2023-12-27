@@ -13,18 +13,18 @@ const Blog = () => {
   const technicalPosts = [
     {
       title: "Real Time Operating Systems (RTOS)",
-      date: "Janurary 24, 2024",
+      date: "Expected Janurary 24, 2024",
       to: "/Blog/RTOS",
       summary:
-        "RTOS ensures precise timing and predictability in systems, crucial for real-time processing of critical tasks.",
+        "RTOS ensures precise timing and predictability in systems, crucial for real-time processing of critical tasks. COMING SOON",
       estimatedTime: "12 min",
     },
     {
       title: "CAN-bus",
-      date: "Janurary 6, 2024",
+      date: "Expected Janurary 6, 2024",
       to: "/Blog/CAN-bus",
       summary:
-        "CAN-bus is a robust serial communication protocol widely used in vehicles for real-time communication between electronic control units.",
+        "CAN-bus is a robust serial communication protocol widely used in vehicles for real-time communication between electronic control units. COMING SOON",
       estimatedTime: "7 min",
     },
     {
@@ -33,7 +33,7 @@ const Blog = () => {
       to: "/Blog/Sensor-Fusion",
       image: "IMUCalib.png",
       summary:
-        "Sensor Fusion combines data from multiple sensors, enhancing accuracy and providing a comprehensive understanding of the environment.",
+        "Sensor Fusion combines data from multiple sensors, enhancing accuracy and providing a comprehensive understanding of the environment. For example, autonomous vehicles must know their own velocity, position, and gyroscopic orientation to preform functions. This is a situation where you would implement an Inertial Measurement Unit (IMU) to record position.",
       estimatedTime: "9 min",
     },
     {
@@ -42,7 +42,7 @@ const Blog = () => {
       to: "/Blog/SyncAsync",
       image: "SyncAsync.png",
       summary:
-        "Synchronous: Real-time communication with a clock line; Asynchronous: Time-flexible communication using standard baud rates.",
+        "Synchronous: Real-time communication with a clock line; Asynchronous: Time-flexible communication using standard baud rates. Synchronous communication uses a seperate clock line to time data transmission. Asynchronous communication uses a standard transmission rate that all components must agree on.",
       estimatedTime: "3 min",
     },
     {
@@ -51,7 +51,7 @@ const Blog = () => {
       to: "/Blog/UART",
       image: "UART.png",
       summary:
-        "UART is an asynchronous serial communication protocol commonly used for short-distance communication between devices.",
+        "UART is an asynchronous serial communication protocol commonly used for short-distance communication between devices. Device 1 transmits (TX) messages to the recieving (RX) pins of device 2. Device 1 will recieve (RX) messages from the transmitting (TX) pins of device 2. Messages are transmitted through a serial port.",
       estimatedTime: "3 min",
     },
     {
@@ -60,7 +60,7 @@ const Blog = () => {
       to: "/Blog/SPI",
       image: "SPI.png",
       summary:
-        "SPI is a serial communication protocol facilitating data exchange between microcontrollers and devices like sensors and displays.",
+        "SPI is a serial communication protocol facilitating data exchange between microcontrollers and devices like sensors and displays. Covering MOSI, MISO, CS, and SCLK. Will also cover coding implementation with an example!",
       estimatedTime: "4 min",
     },
     {
@@ -69,7 +69,7 @@ const Blog = () => {
       to: "/Blog/I2C",
       image: "I2C.png",
       summary:
-        "I2C is a common communication protocol for connecting sensors and devices in embedded systems, using a two-wire interface.",
+        "I2C is a common communication protocol for connecting sensors and devices in embedded systems, using a two-wire interface. In my experience, I have used it to develop sensor drivers. Covering SDA and SCL and how to configure each. Will also focus on code implementation!",
       estimatedTime: "5 min",
     },
   ];
@@ -81,7 +81,7 @@ const Blog = () => {
       to: "/Blog/ECE1A",
       image: "1A.jpg",
       summary:
-        "My ECE 1A experience as a student from Alberta! Strategies and advice I would give myself before I started",
+        "My ECE 1A experience as a student from Alberta! Strategies and advice I would give myself before I started. Compiled of my academic experience, study tips, class reviews, residence experience, and the moving process. Hopefully this helps incoming Waterloo students!",
       estimatedTime: "5 min",
     },
     {
@@ -90,7 +90,7 @@ const Blog = () => {
       to: "/Blog/Highschool",
       image: "CHHS.png",
       summary:
-        "My experience and advice for high school students who want to prusue engineering",
+        "My experience and advice for high school students who want to pursue engineering. Compiled of my academic experience, study tips, my motivating factors, activities to do during high school, next steps from high school, and the university application process. Hopefully this helps all high school students!",
       estimatedTime: "6 min",
     },
   ];

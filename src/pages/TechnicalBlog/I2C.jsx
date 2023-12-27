@@ -8,7 +8,7 @@ const I2C = () => {
                 <p className="col-span-6 text-white text-[3rem] font-Rubik font-bold">I2C</p>
                 <p className="col-span-6 relative bottom-[75%] text-white text-[1rem] font-Rubik font-semibold">Written for my understanding | 5 min</p>
                 
-                <div className="col-span-6 sm:col-span-3">
+                <div className="col-span-6 md:col-span-3">
                     <p className="text-gray-200 text-[1rem] font-Rubik">I2C is a common communication protocol for 
                     connecting sensors and devices in embedded systems, using a two-wire interface. In my experience, I have used it 
                     to develop sensor drivers!</p>
@@ -18,7 +18,7 @@ const I2C = () => {
                     between the master and slave devices. We can find information on the SCL from reading componenet documentation </p>
                 </div>
         
-                <img className="col-span-6 sm:col-span-3 rounded-3xl" src="I2C.png" alt="I2C Diagram"/>
+                <img className="col-span-6 md:col-span-3 rounded-3xl" src="I2C.png" alt="I2C Diagram"/>
 
                 <p className="col-span-6 text-white text-[1.5rem] font-Rubik mt-[1rem] font-bold"> I2C Example Message: </p>
                 <img className="col-span-6 rounded-3xl w-full" src="I2C2.png" alt="Example I2C Message"/>
